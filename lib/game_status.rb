@@ -80,6 +80,8 @@ def over?(board)
 end
 #winner
 
+#had to do a bit of reading the elegance is tricky here
+
 def winner(board)
   if won?(board)
     return board[won?(board)[0]]
