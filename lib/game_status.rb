@@ -80,7 +80,7 @@ def over?(board)
 end
 #winner
 
-def winner?(board)
+def winner(board)
   if won?(board) == ["X","X","X"]
     return "X"
   elsif won?(board) == ["O","O","O"]
